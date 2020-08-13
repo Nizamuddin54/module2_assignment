@@ -1,0 +1,103 @@
+* {
+box-sizing: border-box;
+font-family: Lucida;
+
+}
+
+h1{
+font-size: 175%;
+text-align: center;
+}
+
+.Pizza_h2{
+background-color: #f4ff8d; 
+}
+
+.Pasta_h2{
+background-color: #3e7b8d; 
+}
+
+.Hamburger_h2{
+background-color: #d0e924; 
+}
+
+
+h2{
+
+float:right;
+padding: 5px;
+text-align:center;
+border:1px solid black; 
+font-size: 125%;
+background-color: #f4ff8d; 
+}
+
+p{
+	clear: right;
+
+}
+
+
+
+div{
+position:relative;
+height: 200px;
+border:1px solid black;
+margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+}
+
+ .Pizza{
+background-color: #FC4119 ;
+margin-left: 10px;
+padding: 5px;
+}
+
+.Pasta {
+background-color: #A8D4D8 ;
+padding: 5px;
+margin-left: 10px;
+}
+
+.Hamburger {
+background-color: #13BB1E ;
+padding: 5px;
+margin-left: 10px;
+}
+
+
+
+@media (min-width: 992px)
+{
+.col-lg-4 {
+float:left;
+width: 33.33%;
+}
+}
+
+
+
+@media (max-width: 991px) and (min-width: 768px)     /* forgot to keep ) after 991px...my badd */
+{
+
+.col-md-6 {
+float:left;
+width: 50%;
+}
+
+.col-md-12{
+float:left;
+width: 100%;
+}
+
+}
+
+@media (max-width: 767px)
+{
+.col-sm-12 {
+float:left;
+width: 100%;
+}
+}
+
